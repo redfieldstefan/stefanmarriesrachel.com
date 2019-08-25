@@ -1,0 +1,98 @@
+.Body {
+  min-height: 100vh;
+  background: #FFFFFA;
+  height: 100%;
+  transition: background 1s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.Page {
+  padding: 0 40px;
+}
+
+.Nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 40px;
+  z-index: 100;
+}
+
+.Nav-Header {
+  font-family: 'Kristi', cursive;
+  font-size: 40px;
+  transition: color 1s ease;
+  text-decoration: none;
+  color: rgba(118, 154, 154, 1);
+}
+
+.font-kristi {
+  font-family: 'Kristi', cursive;
+}
+
+.Nav-Header.location-schedule, .Nav-ListItem.active.home {
+  color: rgba(118, 154, 154, 1);
+}
+
+.Nav-Header.location-schedule, .Nav-ListItem.active.schedule {
+  color: rgba(239, 77, 30, 1);
+}
+
+.Nav-Header.location-faq, .Nav-ListItem.active.faq {
+  color: rgba(86, 121, 123, 1); /*Greem?*/
+}
+
+.Nav-Header.location-registry, .Nav-ListItem.active.registry {
+  color: rgba(165, 24, 17, 1);
+}
+
+.Nav-Header.location-directions, .Nav-ListItem.active.directions {
+  color: rgba(209, 132, 152, 1); /*Pink*/
+}
+
+.Nav-Header.location-photos, .Nav-ListItem.active.photos {
+  color: rgba(241, 141, 89, 1);
+}
+
+.Nav-List {
+  list-style: none;
+  padding-left: 40px;
+}
+
+.Nav-ListItem {
+  padding-right: 10px;
+  color: black;
+  transition: color 1s ease;
+  text-decoration: none;
+}
+
+.Nav-ListItem.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.RSVP {
+  text-align: center;
+  margin-top: -89px;
+}
+
+@media (max-width: 768px) {
+  .Nav {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .Nav-List {
+    padding-left: 0;
+  }
+
+  .Nav-ListItem {
+    font-size: 12px;
+    padding-right: 8px;
+  }
+
+  .Nav-ListItem:last-child {
+    padding-right: 0;
+  }
+}
