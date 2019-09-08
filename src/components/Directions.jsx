@@ -4,7 +4,7 @@ import Page from './Page';
 const Directions = () => {
 	return (
 		<Page className="Directions">
-			
+			<p>Not ready yet</p>
 		</Page>
 	);
 };

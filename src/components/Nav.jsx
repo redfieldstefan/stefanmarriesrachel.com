@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import classnames from 'classnames';
 
 const Nav = ({location}) => {
-	console.log('location', location)
 	return (
 		<div className="Nav">
 			<Link className={classnames("Nav-Header", `location-${location}`)} to="/">

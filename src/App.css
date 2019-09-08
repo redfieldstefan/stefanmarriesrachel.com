@@ -35,12 +35,16 @@
   color: rgba(118, 154, 154, 1);
 }
 
+.Nav-Header.location-rsvp, .Nav-ListItem.active.rsvp {
+  color: #870C25;
+}
+
 .Nav-Header.location-schedule, .Nav-ListItem.active.schedule {
   color: rgba(239, 77, 30, 1);
 }
 
 .Nav-Header.location-faq, .Nav-ListItem.active.faq {
-  color: rgba(86, 121, 123, 1); /*Greem?*/
+  color: #F2784B; /*Greem?*/
 }
 
 .Nav-Header.location-registry, .Nav-ListItem.active.registry {
@@ -52,7 +56,7 @@
 }
 
 .Nav-Header.location-photos, .Nav-ListItem.active.photos {
-  color: rgba(241, 141, 89, 1);
+  color: #005555;
 }
 
 .Nav-List {
