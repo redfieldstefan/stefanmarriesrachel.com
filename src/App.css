@@ -7,10 +7,6 @@
   flex-direction: column;
 }
 
-.Page {
-  padding: 0 40px;
-}
-
 .Nav {
   display: flex;
   flex-direction: row;
