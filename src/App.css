@@ -47,7 +47,7 @@
   color: rgba(165, 24, 17, 1);
 }
 
-.Nav-Header.location-directions, .Nav-ListItem.active.directions {
+.Nav-Header.location-directions, .Nav-ListItem.active.travel {
   color: rgba(209, 132, 152, 1); /*Pink*/
 }
 

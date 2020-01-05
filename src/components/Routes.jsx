@@ -21,7 +21,7 @@ const Routes = (props) => {
   		<Route path="/registry" component={Registry}/>
   		<Route path="/faq" component={Faq}/>
   		<Route path="/schedule" component={Schedule}/>
-  		<Route path="/directions" component={Directions}/>
+  		<Route path="/travel" component={Directions}/>
   		<Route path="/rsvp" component={RSVP}/>
 		</div>
 	);
