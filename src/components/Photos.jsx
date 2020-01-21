@@ -9,7 +9,7 @@ const sources = context.keys().map(filename => {
 
 const Photos = () => {
 	return (
-		<Page className="Photos">
+		<Page className="Photos center-content">
 			{
 				sources.map(path => <img className="photo" src={require(`../photos/photos/${path}`)} />)
 			}

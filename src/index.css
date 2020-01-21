@@ -9,10 +9,39 @@ body {
 p {
 	margin: 0;
 	font-size: 24px;
+	line-height: 1.2;
+}
+
+h1, h2, h3, h4, h5 {
+	margin: 0;
 }
 
 ul {
 	margin: 0;
 	padding: 0;
+}
+
+.block {
+	max-width: 650px;
+	padding-bottom: 40px;
+}
+
+.block-header {
+	text-align: center;
+}
+
+.block h2 {
+	margin-bottom: 20px;
+	font-size: 30px;
+}
+
+.block h3 {
+	margin-bottom: 5px;
+	text-decoration: underline;
+}
+
+.block p {
+	margin-bottom: 20px;
+	font-size: 20px;
 }
 

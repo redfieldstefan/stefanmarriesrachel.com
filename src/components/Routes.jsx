@@ -8,7 +8,7 @@ import Schedule from './Schedule';
 import Registry from './Registry';
 import Faq from './Faq';
 import Nav from './Nav';
-import Directions from './Directions';
+import Travel from './Travel';
 import RSVP from './RSVP';
 
 const Routes = (props) => {
@@ -21,7 +21,7 @@ const Routes = (props) => {
   		<Route path="/registry" component={Registry}/>
   		<Route path="/faq" component={Faq}/>
   		<Route path="/schedule" component={Schedule}/>
-  		<Route path="/travel" component={Directions}/>
+  		<Route path="/travel" component={Travel}/>
   		<Route path="/rsvp" component={RSVP}/>
 		</div>
 	);

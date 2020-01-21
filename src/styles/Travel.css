@@ -1,0 +1,32 @@
+.travel-intro {
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.restaurants, .hotels {
+	list-style: none;
+}
+
+.restaurants p, .hotels p {
+	font-size: 16px;
+}
+
+.hotels h4 {
+	margin-bottom: 5px;
+}
+
+.hotels p {
+	margin-bottom: 5px;
+}
+
+.hotel {
+	padding-bottom: 20px;
+}
+
+.hotel-name {
+	display: block;
+}
+
+.hotel a {
+	padding-right: 10px;
+}
