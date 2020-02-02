@@ -79,7 +79,7 @@ const Travel = () => {
 				</p>
 			</div>
 			<div className="block">
-				<h2 className="block-header">Wedding Venue</h2>
+				<h2>Wedding Venue</h2>
 				<p>
 					Our wedding is going to take place at Stefan's family home in Sisters Oregon. 
 					Here is the address and a link to google maps:
@@ -90,11 +90,11 @@ const Travel = () => {
 				</a>
 			</div>
 			<div className="block">
-				<h2 className="block-header">Airport</h2>
+				<h2>Airport</h2>
 				<p>For guests flying from out of town (thank you!) please book your tickets for <a href="https://goo.gl/maps/AwAQJhRGYuuGrvf1A" target="blank">Redmond Municipal Airport</a> (RDM). Redmond is roughly 30 minutes from Sisters and offers a car rental service.</p>
 			</div>
 			<div className="block">
-				<h2 className="block-header">Hotels and Accomodations</h2>
+				<h2>Hotels and Accomodations</h2>
 				<p>
 					There are many great nearby options to stay while you are in town, we have put together an easy list here for quick reference, as well as some fun locations for activities outside of the wedding!
 				</p>
@@ -117,7 +117,7 @@ const Travel = () => {
 				</ul>
 			</div>
 			<div className="block">
-				<h2 className="block-header">Activities and Dining</h2>
+				<h2>Activities and Dining</h2>
 				<p>
 					We hope everyone can make the most of their weekend in Central Oregon. Here are a few of our favorite spots!
 				</p>
@@ -131,7 +131,7 @@ const Travel = () => {
 				</p>
 			</div>
 			<div className="block">
-				<h2 className="block-header">Good places to eat</h2>
+				<h2>Good places to eat</h2>
 				<p>Sisters has no shortage of good spots to grab a bite of food or to sit down for a nice dinner, this is a good short list:</p>
 				<ul className="restaurants">
 					{
