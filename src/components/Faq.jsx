@@ -32,7 +32,7 @@ const Faq = () => {
 			<div className="block">
 				<h2>What should I wear?</h2>
 				<p>
-					Dressy casual, anything you feel your best in will surely be fine. The ceremony and reception will be outdoors on soft ground - please choose footwear accordingly (aka no stilletos).
+					Dressy casual, anything you feel your best in will surely be fine. The ceremony and reception will be outdoors on soft ground - please choose footwear accordingly.
 				</p>
 			</div>
 			<div className="block">

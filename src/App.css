@@ -36,23 +36,22 @@
 }
 
 .Nav-Header.location-schedule, .Nav-ListItem.active.schedule {
-  color: rgba(239, 77, 30, 1);
 }
 
 .Nav-Header.location-faq, .Nav-ListItem.active.faq {
-  color: #F2784B; /*Greem?*/
+  color: rgba(239, 77, 30, 1);
 }
 
 .Nav-Header.location-registry, .Nav-ListItem.active.registry {
   color: rgba(165, 24, 17, 1);
 }
 
-.Nav-Header.location-directions, .Nav-ListItem.active.travel {
+.Nav-Header.location-travel, .Nav-ListItem.active.travel {
   color: rgba(209, 132, 152, 1); /*Pink*/
 }
 
 .Nav-Header.location-photos, .Nav-ListItem.active.photos {
-  color: #005555;
+  color: rgba(165, 24, 17, 1);
 }
 
 .Nav-List {
